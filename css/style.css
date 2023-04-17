@@ -1,5 +1,186 @@
-h1 {
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* custom header li and a style*/
+.custom-list-item li {
+    margin-right: 1.5rem;
+}
+
+.custom-list-item li:hover {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+
+.custom-list-item li a {
+    color: #3E3E3E;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.custom-list-item li a:hover {
+    color: linen
+}
+
+/* header bottom */
+header {
+    margin-bottom: 100px;
+}
+
+/* carousel */
+.custom-carousel-item {
+    height: 32rem;
+    background-color: #777;
+    color: white;
+    position: relative;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.50;
+}
+
+/* carousel-custom-caption */
+.carousel-custom-caption {
+    /* first way */
+    width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    /* secound way */
+    /* width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid red; */
+}
+
+.carousel-custom-caption h5 {
+    font-style: normal;
+    font-weight: 600;
     font-size: 48px;
-    color: goldenrod;
-    text-shadow: 1px 2px 2px salmon;
+    line-height: 58px;
+}
+
+.carousel-custom-caption p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 90px;
+    opacity: 60%;
+}
+
+
+
+/* top-wedding code */
+
+.top-wedding {
+    margin-bottom: 100px;
+}
+
+.top-wedding-bannar {}
+
+.top-wedding-bannar img {}
+
+.top-wedding-info {}
+
+.top-wedding-info h2 {
+    color: #0A0826;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.top-wedding-info p {
+    color: #6C6C6C;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    padding-right: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-custom-caption {
+        /* first way */
+        /* width: 360px;
+        margin: 0 auto;
+        text-align: center; */
+        /* secound way */
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: -32px;
+    }
+
+    .carousel-custom-caption h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .carousel-custom-caption p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 5px;
+        opacity: 90%;
+    }
+
+    .top-wedding-bannar {
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .top-wedding-bannar img {
+        width: 100%;
+    }
+
+    .top-wedding-info {
+        text-align: center;
+    }
+
+    .top-wedding-info h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .top-wedding-info p {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+
+    .top-wedding-info .button {
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
