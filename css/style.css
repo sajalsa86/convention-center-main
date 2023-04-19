@@ -111,76 +111,91 @@ header {
     padding-right: 140px;
 }
 
+/* our package */
 
+/* check-mark-circle-style here  */
+.check-mark-circle {
+    list-style-type: none;
+}
 
+.check-mark-circle>li {
+    /* for icons */
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin: 10px -32px;
+    background-size: 16px;
+    /* for font */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
 
+.our-package {
+    /* margin-bottom: 100px; */
+}
 
+.package-heading {
+    margin-bottom: 150px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A0826;
+}
 
+.package h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+}
 
+.package h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+}
 
+.package p {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
 
+.package button {
+    background: #f5dfed;
+    mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    border-radius: 24px;
+}
 
+.package-focus {
+    color: white;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    position: relative;
+    width: 292px;
+    height: 440px;
+    left: -40px;
+    top: -80px;
+}
 
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .carousel-custom-caption {
-        /* first way */
-        /* width: 360px;
-        margin: 0 auto;
-        text-align: center; */
-        /* secound way */
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-        margin-left: -32px;
-    }
-
-    .carousel-custom-caption h5 {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    .carousel-custom-caption p {
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 24px;
-        padding: 0 5px;
-        opacity: 90%;
-    }
-
-    .top-wedding-bannar {
-        width: 100%;
-        margin: 0 auto;
-        padding: 8px;
-    }
-
-    .top-wedding-bannar img {
-        width: 100%;
-    }
-
-    .top-wedding-info {
-        text-align: center;
-    }
-
-    .top-wedding-info h2 {
-        font-size: 19px;
-        line-height: 30px;
-    }
-
-    .top-wedding-info p {
-        font-size: 15px;
-        line-height: 28px;
-        padding: 10px 10px;
-        text-align: justify;
-    }
-
-    .top-wedding-info .button {
-        width: 50%;
-        margin: 0 auto;
-    }
-
+/* Happy Clients says */
+.happy-clients-heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    color: #0A0826;
 }

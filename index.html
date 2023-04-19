@@ -13,6 +13,12 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- My custom css file link here -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .check-mark-circle>li {
+            background-image: url(icons/tick-svgrepo-com.svg);
+        }
+    </style>
 </head>
 
 <body>
@@ -125,6 +131,7 @@
 
     <!-- main section is start -->
     <main>
+        <!-- top-wedding -->
         <section class="top-wedding container d-m-flex d-lg-flex align-items-center">
             <div class="top-wedding-bannar me-5">
                 <img class="rounded-4" src="images/wedding.png" alt="">
@@ -142,6 +149,122 @@
                         <i class="fa-solid fa-arrow-right fa-fade ps-2"></i>
                 </div>
                 </button>
+            </div>
+        </section>
+        <!-- top-wedding close -->
+        <!-- Our package -->
+        <section class="container">
+
+            <h2 class="package-heading">Our package</h2>
+            <div class="our-package row row-cols-1 row-cols-md-2 row-cols-lg-4 gx-5">
+                <!-- package-1 -->
+                <div class="package">
+                    <h2>$300</h2>
+                    <h3>Business fair</h3>
+                    <p>For most businesses event
+                        like book fair, craft fair.</p>
+                    <ul class="check-mark-circle">
+                        <li>limited space access</li>
+                        <li>Secuirty facility</li>
+                        <li>event support</li>
+                        <li>Decoration design</li>
+                        <li>Per day bill</li>
+                    </ul>
+                    <button onclick="window.open('https://www.facebook.com/NaogaonConventionCenter/','_blank');"
+                        class="btn btn-light text-primary px-5">Choose plan</button>
+                </div>
+                <!-- package-2 -->
+                <div class="package">
+                    <h2>$500</h2>
+                    <h3>wedding basic</h3>
+                    <p>For weddings with basic plan
+                        and limited item</p>
+                    <ul class="check-mark-circle">
+                        <li>Full space access</li>
+                        <li>Food arrangement</li>
+                        <li>mangement support</li>
+                        <li>Decoration design</li>
+                        <li>Billed as shift</li>
+                    </ul>
+                    <button onclick="window.open('https://www.facebook.com/NaogaonConventionCenter/','_blank');"
+                        class="btn btn-light text-primary px-5">Choose plan</button>
+                </div>
+                <!-- package-3 -->
+                <div class="package package-focus position-relative py-5 px-4 col">
+                    <span onclick="window.open('https://www.facebook.com/','_blank');"
+                        class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger"
+                        style="cursor: pointer;">
+                        Hot
+                        <span class="visually-hidden">More</span>
+                    </span>
+                    <h2 class="text-white">$800</h2>
+                    <h3 class="text-white">Wedding plus</h3>
+                    <p class="text-white">For most weddings with premium plans</p>
+                    <ul class="check-mark-circle">
+                        <li>Full space access</li>
+                        <li>Dedicated team</li>
+                        <li>Buffet food</li>
+                        <li>premium Decoration</li>
+                        <li>pay as plan</li>
+                    </ul>
+                    <button onclick="window.open('https://www.facebook.com/NaogaonConventionCenter/','_blank');"
+                        class="btn btn-light text-primary px-5">Choose plan</button>
+                </div>
+                <!-- package-4 -->
+                <div class="package">
+                    <h2>$1200</h2>
+                    <h3>Corporate event</h3>
+                    <p>For most corporate business
+                        events</p>
+                    <ul class="check-mark-circle">
+                        <li>Full space access</li>
+                        <li>Dedicated team</li>
+                        <li>Buffet food</li>
+                        <li>premium Decoration</li>
+                        <li>pay as plan</li>
+                    </ul>
+                    <button onclick="window.open('https://www.facebook.com/NaogaonConventionCenter/','_blank');"
+                        class="btn btn-light text-primary px-5">Choose plan</button>
+                </div>
+            </div>
+        </section>
+        <!-- Happy Clients says -->
+        <section class="container">
+            <h2 class="happy-clients-heading">Happy Clients says</h2>
+            <div class="happy-clients row g-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col text-center">
+                    <p>
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.
+                    </p>
+                    <img src="images/person-1.png" alt="">
+                    <h3>Regina Miles</h3>
+                    <h4>Banker</h4>
+                </div>
+                <div class="col text-center">
+                    <p>
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.
+                    </p>
+                    <img src="images/person-2.png" alt="">
+                    <h3>Jone Drake</h3>
+                    <h4>Banker</h4>
+                </div>
+                <div class="col text-center">
+                    <p>
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.
+                    </p>
+                    <img src="images/person-3.png" alt="">
+                    <h3>Cret Yater</h3>
+                    <h4>Banker</h4>
+                </div>
             </div>
         </section>
     </main>

@@ -1,0 +1,96 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-custom-caption {
+        /* first way */
+        /* width: 360px;
+        margin: 0 auto;
+        text-align: center; */
+        /* secound way */
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: -32px;
+    }
+
+    .carousel-custom-caption h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .carousel-custom-caption p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 5px;
+        opacity: 90%;
+    }
+
+    .top-wedding-bannar {
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    .top-wedding-bannar img {
+        width: 100%;
+    }
+
+    .top-wedding-info {
+        text-align: center;
+    }
+
+    .top-wedding-info h2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .top-wedding-info p {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+
+    .top-wedding-info .button {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    /* our package */
+
+    .our-package {
+        margin-bottom: 60px;
+    }
+
+    .package-heading {
+        margin-bottom: 20px;
+    }
+
+    .package {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .package:last-child {}
+
+    .package p {
+        margin-right: 60px;
+    }
+
+    .package-focus {
+        position: relative;
+        width: 292px;
+        height: 440px;
+        left: 30px;
+        top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+}
