@@ -139,13 +139,31 @@
     }
 
 
+    /* footer */
+    .footer-container {
+        height: auto;
+        display: block;
 
+    }
 
+    .footer-container p {
+        text-align: center;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
+    .get-app {
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-bottom: 50px;
+    }
 
+    .app-store,
+    .google-play {
 
+        padding: 10px 20px 10px 20px !important;
 
-
-
+    }
 
 }
