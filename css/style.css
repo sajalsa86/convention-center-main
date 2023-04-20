@@ -244,3 +244,33 @@ header {
     letter-spacing: 0.2px;
     color: #747474;
 }
+
+/* Frequently Asked Questions */
+.frequently-heading {
+    margin-bottom: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    color: #0D0925;
+}
+
+.frequently-container {
+    margin-bottom: 100px;
+}
+
+.frequently-accordions {
+    margin-right: 40px;
+    width: 55%;
+
+}
+
+.frequently-bannar {
+    /* width: 100%; */
+    width: 45%;
+}
+
+.frequently-bannar img {
+    width: 100%;
+}

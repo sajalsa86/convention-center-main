@@ -105,8 +105,47 @@
         padding: 20px 30px;
         margin-left: 20px;
         margin-bottom: 25px;
-        margin-right: -10px;
+        margin-right: 20px;
     }
+
+
+
+
+
+
+
+    /* Frequently Asked Questions */
+    .frequently-heading {
+        margin-bottom: 80px;
+        font-size: 20px;
+    }
+
+    .frequently-container {
+        margin-bottom: 100px;
+    }
+
+    .frequently-accordions {
+        width: 100%;
+        margin: 0 10px 50px 10px;
+    }
+
+    .frequently-bannar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .frequently-bannar img {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
 
 
 }
