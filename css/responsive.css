@@ -87,10 +87,26 @@
         margin-bottom: 20px;
     }
 
+    /* happy-clients */
+    .happy-clients-heading {
+        margin-bottom: 50px;
+        font-size: 19px;
+        line-height: 28px;
+    }
 
+    .happy-clients {
+        margin-bottom: 80px;
+    }
 
-
-
+    .happy-clients-item {
+        background: #FFFFFF;
+        box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+        border-radius: 5px;
+        padding: 20px 30px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+        margin-right: -10px;
+    }
 
 
 }
